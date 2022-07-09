@@ -26,4 +26,24 @@ class Niramaya extends CI_Controller {
 	{
 		$this->load->view('support');
 	}
+	public function ourvision()
+	{
+		$this->load->view('our-vision');
+	}
+	public function ourprograms()
+	{
+		$this->load->view('our-programs');
+	}
+	public function ourprogramsdetails()
+	{
+		$this->load->view('our-programs-details');
+	}
+	public function getinvolved()
+	{
+		$this->load->view('get-involved');
+	}
+	public function donation()
+	{
+		$this->load->view('donation');
+	}
 }

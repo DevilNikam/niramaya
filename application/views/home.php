@@ -2,7 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 	require_once('header.php');
 ?>
-		<div class="page-container">
+		
             <div class="slide-wrap">
                 <div class="imgBlock slide-section js-fullheight">
                     <img src="https://i.picsum.photos/id/1067/1920/1920.jpg?hmac=UUczYcGPVDbgU6MDC9p4DDFIQCyIhSnxru4tFIAN_dQ" data-speed="1" class="img-parallax">
@@ -17,18 +17,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="box box-1 text-center">
                                     <h2 class="box-title">Our Mission</h2>
                                     <p class="sub-title">Our Goal, Vision & Commitment</p>
+                                    <a href="our-vision.html" class="btn btn-niramaya btn-green">Click</a>
                                 </div>
                             </div>
                             <div class="col-sm-4 p-0">
                                 <div class="box box-2 text-center">
-                                    <h2 class="box-title">Our Events</h2>
+                                    <h2 class="box-title">Our Programs</h2>
                                     <p class="sub-title">Register & Help Make Change</p>
+                                    <a href="our-programs.html" class="btn btn-niramaya btn-green">Click</a>
                                 </div>
                             </div>
                             <div class="col-sm-4 p-0">
                                 <div class="box box-3 text-center">
                                     <h2 class="box-title">Get Involved</h2>
                                     <p class="sub-title">Volunteer, Participate or Donate</p>
+                                    <a href="get-involved.html" class="btn btn-niramaya btn-green">Click</a>
                                 </div>
                             </div>
                         </div>
@@ -41,81 +44,69 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <h2 class="section-title h2-heading">Latest News</h2>
                     </div>
                     <div class="section-body">
-                        <div class="clearfix">
-                            <div class="col-lg-11 m-auto">
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        <a class="card card-style-1" href="javascript:void(0)">
-                                            <img src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmlld3xlbnwwfHwwfHw%3D&w=1000&q=80" class="card-img-top">
-                                            <div class="card-body">
-                                                <h4 class="card-title">Female Robotics Team Womwn</h4>
-                                                <hr class="card-hr" />
-                                                <div class="card-description">
-                                                    <div class="row">
-                                                        <div class="col-sm-10">
-                                                            <i class="fa-solid fa-eye"></i>
-                                                            <span>0</span>
-                                                            <span class="comment">Write a comment</span>
-                                                        </div>
-                                                        <div class="col-sm-2">
-                                                            <i class="fa-solid fa-heart"></i>
-                                                        </div>
-                                                    </div>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div id="fb-root"></div>
+                                <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v14.0" nonce="DVSKcP2C"></script>
+                                <div class="fb-comments" data-href="https://www.facebook.com/zuck/posts/10102735452532991?comment_id=1070233703036185" data-height="500" data-numposts="3"></div>
+                            </div>
+                            <div class="col-md-4">
+                                <div id="fb-root"></div>
+                                <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v14.0" nonce="DVSKcP2C"></script>
+                                <div class="fb-comments" data-href="https://www.facebook.com/zuck/posts/10102735452532991?comment_id=1070233703036185" data-height="500" data-numposts="3"></div>
+                                <!-- <a class="card card-style-1" href="javascript:void(0)">
+                                    <img src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmlld3xlbnwwfHwwfHw%3D&w=1000&q=80" class="card-img-top">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Women Overtake Men india live india</h4>
+                                        <hr class="card-hr" />
+                                        <div class="card-description">
+                                            <div class="row">
+                                                <div class="col-sm-10">
+                                                    <i class="fa-solid fa-eye"></i>
+                                                    <span>0</span>
+                                                    <span class="comment">Write a comment</span>
+                                                </div>
+                                                <div class="col-sm-2">
+                                                    <i class="fa-solid fa-heart"></i>
                                                 </div>
                                             </div>
-                                        </a>
+                                        </div>
                                     </div>
-                                    <div class="col-md-4">
-                                        <a class="card card-style-1" href="javascript:void(0)">
-                                            <img src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmlld3xlbnwwfHwwfHw%3D&w=1000&q=80" class="card-img-top">
-                                            <div class="card-body">
-                                                <h4 class="card-title">Women Overtake Men india live india</h4>
-                                                <hr class="card-hr" />
-                                                <div class="card-description">
-                                                    <div class="row">
-                                                        <div class="col-sm-10">
-                                                            <i class="fa-solid fa-eye"></i>
-                                                            <span>0</span>
-                                                            <span class="comment">Write a comment</span>
-                                                        </div>
-                                                        <div class="col-sm-2">
-                                                            <i class="fa-solid fa-heart"></i>
-                                                        </div>
-                                                    </div>
+                                </a> -->
+                            </div>
+                            <div class="col-md-4">
+                                <div id="fb-root"></div>
+                                <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v14.0" nonce="DVSKcP2C"></script>
+                                <div class="fb-comments" data-href="https://www.facebook.com/zuck/posts/10102735452532991?comment_id=1070233703036185" data-height="500" data-numposts="3"></div>
+                                <!-- <a class="card card-style-1" href="javascript:void(0)">
+                                    <img src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmlld3xlbnwwfHwwfHw%3D&w=1000&q=80" class="card-img-top">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Countries with the Best Policies human</h4>
+                                        <hr class="card-hr" />
+                                        <div class="card-description">
+                                            <div class="row">
+                                                <div class="col-sm-10">
+                                                    <i class="fa-solid fa-eye"></i>
+                                                    <span>0</span>
+                                                    <span class="comment">Write a comment</span>
+                                                </div>
+                                                <div class="col-sm-2">
+                                                    <i class="fa-solid fa-heart"></i>
                                                 </div>
                                             </div>
-                                        </a>
+                                        </div>
                                     </div>
-                                    <div class="col-md-4">
-                                        <a class="card card-style-1" href="javascript:void(0)">
-                                            <img src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmlld3xlbnwwfHwwfHw%3D&w=1000&q=80" class="card-img-top">
-                                            <div class="card-body">
-                                                <h4 class="card-title">Countries with the Best Policies human</h4>
-                                                <hr class="card-hr" />
-                                                <div class="card-description">
-                                                    <div class="row">
-                                                        <div class="col-sm-10">
-                                                            <i class="fa-solid fa-eye"></i>
-                                                            <span>0</span>
-                                                            <span class="comment">Write a comment</span>
-                                                        </div>
-                                                        <div class="col-sm-2">
-                                                            <i class="fa-solid fa-heart"></i>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
+                                </a> -->
                             </div>
                         </div>
-                        <div class="clearfix">
+
+                        <!-- <div class="clearfix">
                             <br/><br/>
                         </div>
                         <div class="clearfix text-center">
                             <a href="" class="btn btn-danger btn-simple btn-lg-x">Read More</a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </section>
@@ -170,107 +161,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
                 </div>
             </section>
-            <section class="ftco-section bg-light">
-                <div class="section clearfix">
-                    <div class="container">
-                        <div class="section-heading clearfix text-center">
-                            <h2 class="section-title h2-heading"> Upcoming Events</h2>
-                        </div>
-                        <div class="section-body">
-                            <div class="clearfix">
-                                <div class="col-sm-11 col-middle">
-                                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                                        <div class="panel accordion-panel">
-                                            <div class="panel-heading accordion-heading" role="tab" id="tabOne">
-                                                <div class="panel-title wrap-collapse clearfix">
-                                                    <a class="collapsed text-content" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                        <div class="dateTime-heading clearfix">
-                                                            <div class="date">23</div>
-                                                            <div class="time">
-                                                                <span class="week">Sat</span><span class="month">Sep</span>
-                                                            </div>
-                                                            <div class="title">
-                                                                <div class="main-title">10K Against Breast Cancer</div>
-                                                                <span class="dragLine">/</span>
-                                                                <span class="mini-title">San Francisco</span>
-                                                                <i class="fa-solid fa-angle-down title-arrow"></i>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                    <div class="button-content">
-                                                        <button class="btn btn-danger btn-simple">Register Now</button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="tabOne">
-                                                <div class="panel-body">
-                                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="panel accordion-panel">
-                                            <div class="panel-heading accordion-heading" role="tab" id="tabTwo">
-                                                <div class="panel-title wrap-collapse clearfix">
-                                                    <a class="collapsed text-content" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                        <div class="dateTime-heading clearfix">
-                                                            <div class="date">20</div>
-                                                            <div class="time">
-                                                                <span class="week">Mon</span><span class="month">Now</span>
-                                                            </div>
-                                                            <div class="title">
-                                                                <div class="main-title">Women Engineers Tech Javascript</div>
-                                                                <span class="dragLine">/</span>
-                                                                <span class="mini-title">San Francisco</span>
-                                                                <i class="fa-solid fa-angle-down title-arrow"></i>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                    <div class="button-content">
-                                                        <button class="btn btn-danger btn-simple">Register Now</button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="tabTwo">
-                                                <div class="panel-body">
-                                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="panel accordion-panel">
-                                            <div class="panel-heading accordion-heading" role="tab" id="tabThree">
-                                                <div class="panel-title wrap-collapse clearfix">
-                                                    <a class="collapsed text-content" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                        <div class="dateTime-heading clearfix">
-                                                            <div class="date">19</div>
-                                                            <div class="time">
-                                                                <span class="week">Tue</span><span class="month">Dec</span>
-                                                            </div>
-                                                            <div class="title">
-                                                                <div class="main-title">Lecture: The Gender Pay Gap</div>
-                                                                <span class="dragLine">/</span>
-                                                                <span class="mini-title">San Francisco</span>
-                                                                <i class="fa-solid fa-angle-down title-arrow"></i>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                    <div class="button-content">
-                                                        <button class="btn btn-danger btn-simple">Register Now</button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="tabThree">
-                                                <div class="panel-body">
-                                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
             <section class="ftco-section bg-light section bg-blue p-0">
                 <div class="container-fluid">
                     <div class="section-outer clearfix text-white">
@@ -293,7 +183,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
                 </div>
             </section>
-        </div>
+
 <?php
 	require_once('footer.php');
 ?>

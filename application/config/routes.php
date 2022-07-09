@@ -51,6 +51,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $route['about'] = 'niramaya/aboutus';
 $route['support'] = 'niramaya/supportus';
+$route['our-vision'] = 'niramaya/ourvision';
+$route['our-programs'] = 'niramaya/ourprograms';
+$route['our-programs-details'] = 'niramaya/ourprogramsdetails';
+$route['get-involved'] = 'niramaya/getinvolved';
+$route['donation'] = 'niramaya/donation';
 $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
