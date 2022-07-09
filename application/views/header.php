@@ -11,9 +11,9 @@ $assetpath=base_url().'assets/';
 
 	<title>Welcome to Niramaya Health Foundation - Niramaya</title>
 
-	<link rel="stylesheet" href="<?php echo $assetpath ?>/plugins/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="<?php echo $assetpath ?>/plugins/fontawesome/css/all.min.css">
-	<link rel="stylesheet" href="<?php echo $assetpath ?>/css/main.css">
+	<link rel="stylesheet" href="<?php echo $assetpath ?>plugins/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="<?php echo $assetpath ?>plugins/fontawesome/css/all.min.css">
+	<link rel="stylesheet" href="<?php echo $assetpath ?>css/main.css">
 </head>
 <body>
 
