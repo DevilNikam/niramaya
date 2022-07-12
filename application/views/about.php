@@ -1,7 +1,6 @@
 <?php
 	defined('BASEPATH') OR exit('No direct script access allowed');
 	require_once('header.php');
-
 ?>
 
             <section class="ftco-section bg-light text-white test">
