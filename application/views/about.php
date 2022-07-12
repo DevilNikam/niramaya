@@ -1,9 +1,10 @@
 <?php
 	defined('BASEPATH') OR exit('No direct script access allowed');
 	require_once('header.php');
+
 ?>
 
-            <section class="ftco-section bg-light text-white">
+            <section class="ftco-section bg-light text-white test">
                 <div class="page-holder overlay overlay-2" style="background-image:url(https://prium.github.io/tryposh/assets/images/about-company.jpg);"></div>
                 <div class="container">
                     <div class="page-holder-title">
